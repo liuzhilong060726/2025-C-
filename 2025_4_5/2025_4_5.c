@@ -59,3 +59,30 @@
 
 
 /* 初识指针 */
+int main() {
+	//int a = 10;// a 在内存中要分配空间 - 4字节
+	//printf("%p\n", &a);// %p 是专门用来打印地址的
+	//int* pa = &a;// pa用来存放a的地址，其类型是int*，在C语言中pa叫做指针变量
+	//// 存放指针的类型是由变量本身类型决定的
+	//// *说明pa是指针变量
+	//// int说明执行的对象是int类型的
+	//char ch = 'a';
+	//char* pc = &ch;
+
+	//// * 解引用操作符
+	//int a = 10;
+	//int* pa = &a;
+	//*pa = 20;// *pa就是通过pa里面存放的地址找到a
+	//printf("%d\n", a);// 20
+
+	// 指针大小 - 32位平台大小都是4个字节，64位平台是8个字节
+	printf("%d\n", sizeof(int*));//4
+	printf("%d\n", sizeof(short*));//4
+	printf("%d\n", sizeof(long*));//4
+	printf("%d\n", sizeof(long long*));//4
+	printf("%d\n", sizeof(char*));//4
+	printf("%d\n", sizeof(double*));//4
+	printf("%d\n", sizeof(float*));//4
+
+	return 0;
+}
