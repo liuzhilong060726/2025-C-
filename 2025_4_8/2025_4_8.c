@@ -322,7 +322,7 @@ void Swap1(int x, int y) {
 	y = t;
 }
 void Swap2(int* pa, int* pb) {
-	// 指针变量解引用后，再交换
+	// 指针变量解引用后，再交换,其对应地址的值也会发生改变
 	int t = *pa;
 	*pa = *pb;
 	*pb = t;
