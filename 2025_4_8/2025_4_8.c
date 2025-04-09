@@ -332,9 +332,9 @@ void Swap2(int* pa, int* pb) {// 传址调用
 int main() {
 	int a = 10;
 	int b = 20;
-	Swap1(a, b);
+	Swap1(a, b);// 传值
 	printf("a = %d, b = %d\n", a, b);// 结果是a = 10, b = 20不符合预期
-	Swap2(&a, &b);
+	Swap2(&a, &b);// 传址
 	printf("a = %d, b = %d\n", a, b);// 结果是a = 20, b = 10符合预期
 	return 0;
 }
