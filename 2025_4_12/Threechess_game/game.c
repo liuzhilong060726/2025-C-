@@ -106,6 +106,7 @@ char Iswin(char board[ROW][COL], int row, int col) {
 	//	return board[1][1];
 	//}
 
+
 	// ¸Ä½ø
 	int i = 0;
 	int j = 0;
