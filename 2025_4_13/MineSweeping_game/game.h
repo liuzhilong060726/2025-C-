@@ -8,8 +8,8 @@
 #define ROW 9
 #define COL 9
 
-#define ROWS ROW+1
-#define COLS COL+1
+#define ROWS ROW+2
+#define COLS COL+2
 
 #define MineCount 10
 

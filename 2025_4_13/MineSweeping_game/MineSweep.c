@@ -23,7 +23,7 @@ void game() {
 	PrintBoard(show, ROW, COL);
 	// ²¼ÖÃÀ×
 	SetMine(mine, ROW, COL);
-	PrintBoard(mine, ROW, COL);
+	//PrintBoard(mine, ROW, COL);
 	// ÅÅ²éÀ×
 	FindMine(mine, show, ROW, COL);
 }
